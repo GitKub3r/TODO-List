@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adding Element</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <span class="error hide" id="error-text">ERROR: Type some content</span>
+      <div id="controll-box">
+        <div id="input-section">
+          <input
+            type="text"
+            class="inp"
+            id="element-text"
+            placeholder="Content"
+          />
+        </div>
+
+        <div id="btn-section">
+          <button class="btn" id="btn-add">Add List Item</button>
+          <button class="btn" id="btn-remove-all">Remove All</button>
+        </div>
+      </div>
+
+      <div id="list-box" class="hide">
+        <ul id="list"></ul>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
